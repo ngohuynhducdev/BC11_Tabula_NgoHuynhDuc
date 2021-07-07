@@ -1,0 +1,31 @@
+h2 {
+  font-size: 50px;
+}
+header {
+  .navbar .nav-item .nav-link {
+    color: $color-black;
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: all 0.5;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  // background-image: url("../../images/yellow_top_wave_01.png");
+  // background-repeat: no-repeat;
+  // background-position: top;
+  // position: relative;
+  // z-index: 100;
+}
+
+#collapsibleNavbar {
+  justify-content: end;
+  width: 50%;
+  margin-left: 27%;
+  @media screen and (max-width: 972px) {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

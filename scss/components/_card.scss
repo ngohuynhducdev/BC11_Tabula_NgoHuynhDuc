@@ -1,0 +1,23 @@
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 1s;
+  p {
+    font-size: 1.6rem;
+  }
+  h5 {
+    font-size: 2rem;
+  }
+  img {
+    transform: scale(1);
+    transition: all 1s;
+    overflow: hidden;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 5px 30px rgb(109, 109, 109);
+  }
+}

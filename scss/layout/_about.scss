@@ -10,7 +10,7 @@
     color: $color-black;
   }
 
-  background-image: url("../../images/Violet_top_left_wave.png");
+  background-image: url("../images/Violet_top_left_wave.png");
   @include setBackground(no-repeat, contain, bottom);
   padding-bottom: 50px;
 }

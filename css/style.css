@@ -193,7 +193,7 @@ header .navbar .nav-item .nav-link:hover {
 
 #about {
   padding-top: 100px;
-  background-image: url("../../images/Violet_top_left_wave.png");
+  background-image: url("../images/Violet_top_left_wave.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -212,7 +212,7 @@ header .navbar .nav-item .nav-link:hover {
 }
 
 #teacher {
-  background-image: url("../../images/Wave_White_bottom_right_shape_01.png");
+  background-image: url("../images/Wave_White_bottom_right_shape_01.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -221,7 +221,7 @@ header .navbar .nav-item .nav-link:hover {
 
 #form {
   padding-top: 100px;
-  background-image: url("../../images/accent_bottom_wave_01.png");
+  background-image: url("../images/accent_bottom_wave_01.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -229,7 +229,7 @@ header .navbar .nav-item .nav-link:hover {
 }
 
 #footer {
-  background-image: url("../../images/footer_background.jpg");
+  background-image: url("../images/footer_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;

@@ -8,12 +8,17 @@
   h5 {
     font-size: 2rem;
   }
-  img {
-    transform: scale(1);
-    transition: all 1s;
+  .img-wrapper {
     overflow: hidden;
-    &:hover {
-      transform: scale(1.1);
+
+    img {
+      // transform: scale(1);
+      // transition: all 1s;
+      overflow: hidden;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 3s;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 
